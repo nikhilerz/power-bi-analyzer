@@ -1,22 +1,15 @@
-# Environment variables
-.env
-
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 venv/
-env/
-.venv/
-chroma_data/
-uploads/
+.env
 
-# Node / Frontend
+# Node
 node_modules/
 dist/
-build/
-.DS_Store
 
-# IDEs
-.vscode/
-.idea/
+# Project specifics
+backend/chroma_data/
+backend/uploads/
+backend/powerbi.db
